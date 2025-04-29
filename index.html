@@ -2,17 +2,16 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Tebak Angka</title>
+  <title>GTN | Guess The Number</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Mari Bermain Tebak Angka!</h1>
+  <h1>Guess The Number!</h1>
   <p id="range-info">Memuat konfigurasi...</p>
-  
-  <input type="number" id="guess" placeholder="Masukkan angka">
-  <button onclick="checkGuess()">Tebak</button>
-  
+    <input type="text" id="guess" placeholder="Masukkan angka"><br><br>
+    <button onclick="checkGuess()">Tebak</button>  <br>
   <p id="message"></p>
+  
   <p id="attempts">Percobaan: </p>
   <button id="restartBtn" onclick="restartGame()" style="display:none;">🔄 Ulangi Game</button>
 
