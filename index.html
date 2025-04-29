@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>bana</title>
+  <meta charset="UTF-8">
+  <title>Tebak Angka</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Hay</p>
-    <script src="/script.js"></script>
+  <h1>Mari Bermain Tebak Angka!</h1>
+  <p id="range-info">Memuat konfigurasi...</p>
+  
+  <input type="number" id="guess" placeholder="Masukkan angka">
+  <button onclick="checkGuess()">Tebak</button>
+  
+  <p id="message"></p>
+  <p id="attempts">Percobaan: </p>
+  <button id="restartBtn" onclick="restartGame()" style="display:none;">🔄 Ulangi Game</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
